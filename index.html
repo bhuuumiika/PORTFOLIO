@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bhumika Agrawal | Cybersecurity Projects</title>
+  <meta name="description" content="Cybersecurity project hub of Bhumika Agrawal: malware scanning, network monitoring, phishing awareness, and hands-on lab work.">
+  <meta name="theme-color" content="#0a0f1c">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%230a0f1c'/%3E%3Cpath d='M16 5l9 3.5v7c0 5.4-3.8 9.3-9 11.5-5.2-2.2-9-6.100-9-11.500v-7z' fill='none' stroke='%23f5a524' stroke-width='2.200'/%3E%3C/svg%3E">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ============ HEADER ============ -->
+  <header class="site-header" id="top">
+    <div class="wrap header-inner">
+      <a class="brand" href="#top" aria-label="Bhumika Agrawal, back to top">
+        <svg class="brand-mark" viewBox="0 0 32 32" width="26" height="26" aria-hidden="true">
+          <path d="M16 4l10 3.800v7.700c0 6-4.200 10.200-10 12.500C10.200 25.700 6 21.500 6 15.500V7.800z" fill="none" stroke="currentColor" stroke-width="2.200" stroke-linejoin="round"/>
+          <path d="M11.500 16l3.200 3.200 5.800-6" fill="none" stroke="currentColor" stroke-width="2.200" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        <span>Bhumika Agrawal</span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="site-nav" id="site-nav" aria-label="Main">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#competitions">Competitions</a>
+        <a href="#learning">Practical learning</a>
+        <a href="#certifications">Certifications</a>
+        <a href="#community">Community</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ============ HERO ============ -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="wrap hero-grid">
+        <div class="hero-copy">
+          <p class="hero-role">Cybersecurity Enthusiast</p>
+          <h1 id="hero-title">Bhumika Agrawal</h1>
+          <p class="hero-intro">
+            I build small security tools to understand how attacks work and how they get caught:
+            a malware scanner, a network monitor that catches ARP spoofing, and a phishing-awareness app.
+            This site shows the work itself, with the reasoning, results and evidence behind each project.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#projects">See my projects</a>
+            <a class="btn btn-ghost" href="https://github.com/bhuuumiika" target="_blank" rel="noopener noreferrer">GitHub</a>
+            <a class="btn btn-ghost" href="https://www.linkedin.com/in/bhumika-agrawal-14a01b345/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            <a class="btn btn-ghost" href="https://tryhackme.com/p/bhuuumika" target="_blank" rel="noopener noreferrer">TryHackMe</a>
+          </div>
+        </div>
+
+        <div class="terminal" role="img" aria-label="Terminal window showing sample output from the PacketShield project">
+          <div class="terminal-bar">
+            <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+            <span class="terminal-title">packetshield: sample output</span>
+          </div>
+          <div class="terminal-body" id="terminal-body" aria-hidden="true"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section class="section" id="about" aria-labelledby="about-title">
+      <div class="wrap">
+        <h2 id="about-title">About</h2>
+        <div class="about-grid">
+          <div class="about-text">
+            <p>
+              I'm drawn to the defensive side of security: spotting something wrong in a stream of
+              events, working out what happened, and automating the boring parts so a human can focus
+              on the interesting ones. Security operations, threat detection and digital forensics are
+              where I want to build my career.
+            </p>
+            <p>
+              I learn best by doing. Most of what I know comes from hands-on labs, competitions and
+              projects where I had to make something work and then explain why it works.
+            </p>
+            <p>
+              I'm also looking at AI and machine learning from a security angle: how these systems are
+              built end to end, and what new weaknesses AI-powered technology introduces.
+            </p>
+            <p class="about-goal">
+              <strong>Where I'm heading:</strong> a solid foundation in IT and security, built through
+              practical industry experience and a deeper understanding of how systems, applications and
+              networks fit together.
+            </p>
+          </div>
+
+          <aside class="focus-panel" aria-label="Current focus">
+            <h3>Currently building and learning</h3>
+            <ul class="focus-list">
+              <li>
+                <span class="focus-name">Security monitoring</span>
+                <span class="focus-note">Turning raw traffic and logs into alerts that mean something</span>
+              </li>
+              <li>
+                <span class="focus-name">Incident investigation</span>
+                <span class="focus-note">Reconstructing what happened from the evidence left behind</span>
+              </li>
+              <li>
+                <span class="focus-name">Security automation</span>
+                <span class="focus-note">Python tooling for repeatable checks and triage</span>
+              </li>
+              <li>
+                <span class="focus-name">AI/ML security</span>
+                <span class="focus-note">How AI workflows work and where they can be attacked</span>
+              </li>
+            </ul>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PROJECTS ============ -->
+    <section class="section section-projects" id="projects" aria-labelledby="projects-title">
+      <div class="wrap">
+        <h2 id="projects-title">Projects</h2>
+        <p class="section-lead">
+          Three tools I designed and built myself. Open any card for the full case study: the problem,
+          my approach, what I learned and the evidence.
+        </p>
+        <!-- Cards are generated from the PROJECTS data in script.js -->
+        <div class="project-grid" id="project-grid"></div>
+      </div>
+    </section>
+
+    <!-- ============ COMPETITIONS ============ -->
+    <!--
+      EDIT ME: These are placeholder cards. Replace the text in each one, or delete the
+      "placeholder-card" class once the card holds real information. Copy a whole <article>
+      block to add more competitions.
+    -->
+    <section class="section" id="competitions" aria-labelledby="competitions-title">
+      <div class="wrap">
+        <h2 id="competitions-title">Cybersecurity competitions</h2>
+        <p class="section-lead">
+          CTFs, hackathons and challenges where I had to solve problems against the clock.
+        </p>
+
+        <div class="stack">
+          <article class="entry placeholder-card">
+            <header class="entry-head">
+              <h3>[CTF name]</h3>
+              <span class="ph-tag">Placeholder</span>
+            </header>
+            <dl class="entry-grid">
+              <div><dt>Result</dt><dd>[Placement or outcome, e.g. rank / total teams]</dd></div>
+              <div><dt>What it involved</dt><dd>[Format, team or solo, duration, who ran it]</dd></div>
+              <div><dt>Areas covered</dt><dd>[e.g. web, crypto, forensics, reverse engineering]</dd></div>
+              <div><dt>What I learned</dt><dd>[One or two specific things you took away]</dd></div>
+              <div><dt>Evidence</dt><dd><span class="btn btn-ghost btn-sm is-placeholder" aria-disabled="true">Scoreboard or certificate <span class="ph-tag">add link</span></span></dd></div>
+            </dl>
+          </article>
+
+          <article class="entry placeholder-card">
+            <header class="entry-head">
+              <h3>[Hackathon name]</h3>
+              <span class="ph-tag">Placeholder</span>
+            </header>
+            <dl class="entry-grid">
+              <div><dt>Result</dt><dd>[Placement, award or outcome]</dd></div>
+              <div><dt>What it involved</dt><dd>[The problem statement and your role in the team]</dd></div>
+              <div><dt>Areas covered</dt><dd>[Topics and skills used]</dd></div>
+              <div><dt>What I learned</dt><dd>[Specific takeaways]</dd></div>
+              <div><dt>Evidence</dt><dd><span class="btn btn-ghost btn-sm is-placeholder" aria-disabled="true">Write-up or certificate <span class="ph-tag">add link</span></span></dd></div>
+            </dl>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PRACTICAL LEARNING ============ -->
+    <section class="section" id="learning" aria-labelledby="learning-title">
+      <div class="wrap">
+        <h2 id="learning-title">Practical learning</h2>
+        <p class="section-lead">
+          Hands-on lab practice, kept separate from certifications. These are rooms I worked through
+          myself, not credentials.
+        </p>
+
+        <div class="learning-grid">
+          <div class="learning-stat">
+            <p class="stat-number">110+</p>
+            <p class="stat-label">TryHackMe rooms and labs completed</p>
+            <p class="stat-note">I use labs to practise concepts rather than relying only on theory.</p>
+            <div class="learning-links">
+              <a class="btn btn-primary btn-sm" href="https://tryhackme.com/p/bhuuumika" target="_blank" rel="noopener noreferrer">TryHackMe profile</a>
+              <a class="btn btn-ghost btn-sm" href="https://github.com/bhuuumiika/tryhackme-writeups" target="_blank" rel="noopener noreferrer">Write-ups on GitHub</a>
+            </div>
+          </div>
+
+          <div>
+            <h3 class="mini-heading">Areas covered</h3>
+            <ul class="area-grid">
+              <li><span>Linux and Windows fundamentals</span></li>
+              <li><span>Networking and web fundamentals</span></li>
+              <li><span>Cryptography</span></li>
+              <li><span>Offensive security and penetration testing</span></li>
+              <li><span>Defensive security</span></li>
+              <li><span>Search and reconnaissance</span></li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- EDIT ME: replace with the room names and links of the write-ups you want to highlight -->
+        <div class="writeups">
+          <h3 class="mini-heading">Selected write-ups</h3>
+          <ul class="writeup-list">
+            <li class="placeholder-card">
+              <span>[Room name]: one line on what you did or found</span>
+              <span class="btn btn-ghost btn-sm is-placeholder" aria-disabled="true">Write-up <span class="ph-tag">add link</span></span>
+            </li>
+            <li class="placeholder-card">
+              <span>[Room name]: one line on what you did or found</span>
+              <span class="btn btn-ghost btn-sm is-placeholder" aria-disabled="true">Write-up <span class="ph-tag">add link</span></span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CERTIFICATIONS ============ -->
+    <!-- EDIT ME: replace the placeholder text. Copy an <article> block to add more. -->
+    <section class="section" id="certifications" aria-labelledby="certifications-title">
+      <div class="wrap">
+        <h2 id="certifications-title">Certifications</h2>
+        <p class="section-lead">Formal credentials that back up the hands-on work above.</p>
+
+        <div class="cert-grid">
+          <article class="cert placeholder-card">
+            <div class="entry-head">
+              <h3>[Certification name]</h3>
+              <span class="ph-tag">Placeholder</span>
+            </div>
+            <p><strong>Why I did it:</strong> [One sentence on what you wanted to learn or prove]</p>
+            <p><strong>Areas covered:</strong> [Topics]</p>
+            <span class="btn btn-ghost btn-sm is-placeholder" aria-disabled="true">Certificate <span class="ph-tag">add link</span></span>
+          </article>
+
+          <article class="cert placeholder-card">
+            <div class="entry-head">
+              <h3>[Certification name]</h3>
+              <span class="ph-tag">Placeholder</span>
+            </div>
+            <p><strong>Why I did it:</strong> [One sentence on what you wanted to learn or prove]</p>
+            <p><strong>Areas covered:</strong> [Topics]</p>
+            <span class="btn btn-ghost btn-sm is-placeholder" aria-disabled="true">Certificate <span class="ph-tag">add link</span></span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ ACHIEVEMENTS / COMMUNITY ============ -->
+    <!-- EDIT ME: describe what you did and the result, not just the title. -->
+    <section class="section" id="community" aria-labelledby="community-title">
+      <div class="wrap">
+        <h2 id="community-title">Achievements and community</h2>
+        <p class="section-lead">Awards, volunteering, mentoring, talks and contributions, with the impact they had.</p>
+
+        <div class="cert-grid">
+          <article class="cert placeholder-card">
+            <div class="entry-head">
+              <h3>[Achievement or contribution]</h3>
+              <span class="ph-tag">Placeholder</span>
+            </div>
+            <p><strong>What I did:</strong> [The action you took]</p>
+            <p><strong>Impact:</strong> [Who benefited, numbers if you have them]</p>
+          </article>
+
+          <article class="cert placeholder-card">
+            <div class="entry-head">
+              <h3>[Volunteering, mentoring or talk]</h3>
+              <span class="ph-tag">Placeholder</span>
+            </div>
+            <p><strong>What I did:</strong> [The action you took]</p>
+            <p><strong>Impact:</strong> [Who benefited, numbers if you have them]</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="section section-contact" id="contact" aria-labelledby="contact-title">
+      <div class="wrap">
+        <h2 id="contact-title">Contact</h2>
+        <p class="section-lead">
+          I'm looking for practical experience in security operations and related roles. The quickest
+          way to reach me is email.
+        </p>
+
+        <ul class="contact-grid">
+          <li>
+            <a class="contact-card" href="mailto:bhumikaagrawal916@gmail.com">
+              <span class="contact-label">Email</span>
+              <span class="contact-value">bhumikaagrawal916@gmail.com</span>
+            </a>
+            <button class="copy-btn" type="button" id="copy-email" data-email="bhumikaagrawal916@gmail.com">Copy address</button>
+          </li>
+          <li>
+            <a class="contact-card" href="https://www.linkedin.com/in/bhumika-agrawal-14a01b345/" target="_blank" rel="noopener noreferrer">
+              <span class="contact-label">LinkedIn</span>
+              <span class="contact-value">bhumika-agrawal</span>
+            </a>
+          </li>
+          <li>
+            <a class="contact-card" href="https://github.com/bhuuumiika" target="_blank" rel="noopener noreferrer">
+              <span class="contact-label">GitHub</span>
+              <span class="contact-value">bhuuumiika</span>
+            </a>
+          </li>
+          <li>
+            <a class="contact-card" href="https://tryhackme.com/p/bhuuumika" target="_blank" rel="noopener noreferrer">
+              <span class="contact-label">TryHackMe</span>
+              <span class="contact-value">bhuuumika</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <p>&copy; <span id="year">2026</span> Bhumika Agrawal</p>
+      <a href="#top">Back to top</a>
+    </div>
+  </footer>
+
+  <!-- ============ PROJECT DETAIL VIEW ============ -->
+  <dialog class="project-dialog" id="project-dialog" aria-labelledby="dialog-title">
+    <div class="dialog-head">
+      <div>
+        <p class="dialog-category" id="dialog-category"></p>
+        <h2 id="dialog-title"></h2>
+      </div>
+      <button class="dialog-close" type="button" id="dialog-close" aria-label="Close project details">
+        <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      </button>
+    </div>
+    <div class="dialog-body" id="dialog-body"></div>
+  </dialog>
+
+  <script src="script.js"></script>
+</body>
+</html>
