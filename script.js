@@ -61,12 +61,7 @@ const PROJECTS = [
     evidence: {
       github: "https://github.com/bhuuumiika/PyGuard-Scanner",
       linkedin: "https://lnkd.in/p/dPH-U_tt",
-      writeup: "",
-      demo: "",
-      docs: ""
     },
-    screenshots: []
-  },
 
   {
     id: "packetshield",
@@ -116,13 +111,8 @@ const PROJECTS = [
       "Local networks trust ARP by default, so a forged reply can quietly route someone's traffic through an attacker. Watching for conflicting IP-to-MAC bindings and gateway changes is the same reasoning network monitoring and intrusion detection tools use, and writing alerts to a log mirrors how a SOC collects events for review.",
     evidence: {
       github: "https://github.com/bhuuumiika/PacketShield",
-      linkedin: "https://lnkd.in/p/dZ4tXh2p",
-      writeup: "",
-      demo: "",
-      docs: ""
+      linkedin: "https://lnkd.in/p/dZ4tXh2p"
     },
-    screenshots: []
-  },
 
   {
     id: "phishguard",
@@ -172,11 +162,7 @@ const PROJECTS = [
     evidence: {
       github: "https://github.com/bhuuumiika/PhisGuard",
       linkedin: "https://lnkd.in/p/dxxDaS8R",
-      writeup: "",
-      demo: "",
-      docs: ""
-    },
-    screenshots: []
+     
   }
 ];
 
