@@ -62,7 +62,7 @@ const PROJECTS = [
       github: "https://github.com/bhuuumiika/PyGuard-Scanner",
       linkedin: "https://lnkd.in/p/dPH-U_tt",
     }
-    },
+  },
 
   {
     id: "packetshield",
@@ -114,7 +114,7 @@ const PROJECTS = [
       github: "https://github.com/bhuuumiika/PacketShield",
       linkedin: "https://lnkd.in/p/dZ4tXh2p"
     }
-    },
+  },
 
   {
     id: "phishguard",
@@ -165,8 +165,8 @@ const PROJECTS = [
       github: "https://github.com/bhuuumiika/PhisGuard",
       linkedin: "https://lnkd.in/p/dxxDaS8R",
     }
-     
   }
+     
 ];
 
 /* =========================================================
